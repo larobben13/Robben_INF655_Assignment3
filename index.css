@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color:navy;
+  color: grey;
+  line-height: 1.6;
+}
+
+.container{
+  max-width: 768px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+header{
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.card{
+  background-color: white;
+  color: blue;
+  border-radius: 15px;
+  padding: 40px 50px;
+  margin: 20px 0;
+  position: relative;
+}
+
+.text-display{
+  position: relative;
+  font-weight: bold;
+}
+
+.btn{
+  color:navy;
+  font-weight: bold;
+  border: 0;
+  border-radius: 18px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.delete{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  background: none;
+  border:none;
+}
+.item{
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  cursor:pointer;
+}
+
+.inputbox{
+  position: relative;
+  width: 300px;
+  height: 10px;
+  margin-bottom: 50px;
+
+}
+
